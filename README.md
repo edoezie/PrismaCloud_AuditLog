@@ -1,4 +1,4 @@
-# Prisma Cloud SQS poller to Syslog 
+# Prisma Cloud Auditlog Fetch
 
 Version: *1.0*
 Author: *Eric Doezie*
@@ -37,8 +37,6 @@ This script uses an INFO file (metadata) and DATA file (actual logs).
 To limit the amount of time taken fetching the actual audit logs, this is limited to 24h per default.
 Longer times are possible up to a max of three months.
 ```
-2. Navigate to *sqs_to_syslog/config/configs.yml*
-
 ### Run
 
 ```
